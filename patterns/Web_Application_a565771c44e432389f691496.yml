@@ -1,0 +1,12 @@
+schemaVersion: "1.0"
+pattern:
+  id: "a565771c44e432389f691496"
+  className: "ch.nevis.admin.v4.plugin.nevisproxy.patterns.WebApplicationAccess"
+  name: "Web Application"
+  properties:
+    host:
+    - "pattern://a746982f1d932756f134d771"
+    path: "/"
+    realm:
+    - "pattern://d9a865b6d733d073ad1f2c5f"
+    backends: "https://www.google.com"

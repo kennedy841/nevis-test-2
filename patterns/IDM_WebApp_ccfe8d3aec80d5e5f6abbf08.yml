@@ -1,0 +1,14 @@
+schemaVersion: "1.0"
+pattern:
+  id: "ccfe8d3aec80d5e5f6abbf08"
+  className: "ch.nevis.admin.v4.plugin.nevisidm.patterns.NevisIDMWebApplicationAccess"
+  name: "IDM WebApp"
+  properties:
+    host:
+    - "pattern://a746982f1d932756f134d771"
+    nevisIDM:
+    - "pattern://dd94e0bc55c8e5b543f82b1a"
+    realm:
+    - "pattern://d9a865b6d733d073ad1f2c5f"
+    token:
+    - "pattern://7009abb038f4efe4cddc7e0d"

@@ -1,0 +1,7 @@
+schemaVersion: "1.0"
+pattern:
+  id: "00d6ee63cd07feac46cc9b93"
+  className: "ch.nevis.admin.v4.plugin.nevisproxy.patterns.NevisProxyDeployable"
+  name: "nevisProxy Instance"
+  deploymentHosts: "proxy"
+  properties: {}

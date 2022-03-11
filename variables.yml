@@ -1,0 +1,24 @@
+schemaVersion: "1.0"
+variables:
+  proxy-bind-address:
+    className: "ch.nevis.admin.v4.plugin.base.generation.property.URLProperty"
+    parameters:
+      minRequired: 0
+      portInputMode: "REQUIRED"
+      hostNameInputMode: "REQUIRED"
+      schemeInputMode: "REQUIRED"
+      pathInputMode: "NONE"
+      allowedSchemes: "http,https"
+    value: "https://nevisadmin4-dev-docker2.zh.adnovum.ch:80"
+    requireOverloading: true
+  proxy-host-name:
+    className: "ch.nevis.admin.v4.plugin.base.generation.property.URLProperty"
+    parameters:
+      minRequired: 1
+      portInputMode: "OPTIONAL"
+      hostNameInputMode: "REQUIRED"
+      schemeInputMode: "REQUIRED"
+      pathInputMode: "NONE"
+      allowedSchemes: "http,https"
+    value: "https://nevisadmin4-dev-docker2.zh.adnovum.ch:5980"
+    requireOverloading: true

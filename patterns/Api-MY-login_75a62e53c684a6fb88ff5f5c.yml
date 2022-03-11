@@ -1,0 +1,10 @@
+schemaVersion: "1.0"
+pattern:
+  id: "75a62e53c684a6fb88ff5f5c"
+  className: "ch.nevis.admin.v4.plugin.nevisproxy.patterns.RESTServiceAccess"
+  name: "Api-MY-login"
+  properties:
+    host:
+    - "pattern://a746982f1d932756f134d771"
+    path: "/api/"
+    backends: "http://localhost:8080"

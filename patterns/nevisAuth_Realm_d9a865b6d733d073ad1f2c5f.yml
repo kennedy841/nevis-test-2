@@ -1,0 +1,14 @@
+schemaVersion: "1.0"
+pattern:
+  id: "d9a865b6d733d073ad1f2c5f"
+  className: "ch.nevis.admin.v4.plugin.nevisauth.patterns2.NevisAuthRealm"
+  name: "nevisAuth Realm"
+  properties:
+    authenticate:
+    - "pattern://4e74853adf0195890ede7acf"
+    tokens:
+    - "pattern://7009abb038f4efe4cddc7e0d"
+    auth:
+    - "pattern://06d2b7aba1bd2b7d8d37da21"
+    logrend:
+    - "pattern://89c988d526ac8228116c746e"

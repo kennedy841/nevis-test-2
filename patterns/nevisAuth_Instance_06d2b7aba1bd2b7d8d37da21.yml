@@ -1,0 +1,9 @@
+schemaVersion: "1.0"
+pattern:
+  id: "06d2b7aba1bd2b7d8d37da21"
+  className: "ch.nevis.admin.v4.plugin.nevisauth.patterns.NevisAuthDeployable"
+  name: "nevisAuth Instance"
+  deploymentHosts: "auth"
+  properties:
+    addons:
+    - "pattern://d5206b1bc015c538aa155cd5"

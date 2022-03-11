@@ -1,0 +1,8 @@
+schemaVersion: "1.0"
+pattern:
+  id: "5cf5660cd1db9a42414718d6"
+  className: "ch.nevis.admin.v4.plugin.nevisidm.patterns.ManagedNevisIDMDatabase"
+  name: "Managed nevisIDM Database"
+  properties:
+    databaseHost: "my-mriadb-mariadb.default.svc.cluster.local"
+    rootCredential: "root-creds"

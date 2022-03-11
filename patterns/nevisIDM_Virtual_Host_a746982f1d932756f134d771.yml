@@ -1,0 +1,11 @@
+schemaVersion: "1.0"
+pattern:
+  id: "a746982f1d932756f134d771"
+  className: "ch.nevis.admin.v4.plugin.nevisproxy.patterns.HostContext"
+  name: "nevisIDM Virtual Host"
+  properties:
+    proxy:
+    - "pattern://00d6ee63cd07feac46cc9b93"
+    addresses: "var://proxy-host-name"
+    addons:
+    - "pattern://eeb1dd4c259cbb6f13ef3522"

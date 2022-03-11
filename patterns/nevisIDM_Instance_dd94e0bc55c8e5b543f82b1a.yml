@@ -1,0 +1,10 @@
+schemaVersion: "1.0"
+pattern:
+  id: "dd94e0bc55c8e5b543f82b1a"
+  className: "ch.nevis.admin.v4.plugin.nevisidm.patterns.NevisIDMDeployable"
+  name: "nevisIDM Instance"
+  deploymentHosts: "idm"
+  properties:
+    encryptionKey: "YXNkc2pkbmFranNiZGFrYmRrYWJka2Fic2RramJhc2RramJhc2tkYmFzZGFzYmQ="
+    databaseConnector:
+    - "pattern://5cf5660cd1db9a42414718d6"
